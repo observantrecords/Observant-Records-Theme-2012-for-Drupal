@@ -58,6 +58,7 @@
 		<link rel="stylesheet" href="<?php echo OBSERVANTRECORDS_CDN_BASE_URI ?>/web/css/facebox.css" type="text/css" media="screen, projection" />
 		<?php print $styles; ?>
 		<?php print $scripts; ?>
+		<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?php echo OBSERVANTRECORDS_CDN_BASE_URI ?>/web/js/facebox.js"></script>
 		<script type="text/javascript">
 		var facebox_options = {
