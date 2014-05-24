@@ -55,7 +55,7 @@
 		</div>
 		<div id="footer">
 			<div class="container">
-				<footer>
+				<footer class="row">
 					<nav id="footer-column-1" class="col-md-4">
 						<?php print theme('ext_link_top_nav'); ?>
 						
