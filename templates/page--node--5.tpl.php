@@ -32,22 +32,12 @@
 				</div>
 				
 				<div class="row">
-					<div id="column-1" class="col-md-8">
+					<div id="column-1" class="col-md-12">
 					<?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
 					<?php print render($page['help']); ?>
 					<?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
 					<?php print render($page['content']); ?>
 					<?php //print $feed_icons; ?>
-					</div>
-
-					<div id="column-2" class="col-md-4">
-					<?php if ($page['sidebar_first']): ?>
-						<?php print render($page['sidebar_first']); ?>
-					<?php endif; ?>
-
-					<?php if ($page['sidebar_second']): ?>
-						<?php print render($page['sidebar_second']); ?>
-					<?php endif; ?>
 					</div>
 				</div>
 			</div>

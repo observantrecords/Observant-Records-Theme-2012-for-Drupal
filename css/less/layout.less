@@ -12,9 +12,6 @@
 @light-grey: #CBCBCB;
 
 #container {
-	display: block;
-	width: 950px;
-	margin: 0 auto;
 }
 
 #masthead {
@@ -24,9 +21,6 @@
 		list-style-type: none;
 	}
 	#logo {
-		float: left;
-		width: 470px;
-		margin-right: 10px;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
@@ -43,10 +37,7 @@
 }
 
 #nav-header {
-	float: left;
-	width: 470px;
-	margin-right: 0px;
-	padding-top: 2em;
+	padding-top: 1.5em;
 	text-align: center;
 	ul.links li {
 		.navigation-list-item;
@@ -55,13 +46,11 @@
 }
 
 #nav-footer {
-	float: left;
-	width: 310px;
-	margin-right: 10px;
 	margin-top: 1em;
 }
 
 ul#nav-social {
+	margin-top: 20px;
 	padding-left: 0px;
 	margin-left: 0px;
 	li {
@@ -75,9 +64,6 @@ ul#nav-social {
 }
 
 .container-blueprint {
-	float: left;
-	width: 950px;
-	margin-right: 0px;
 }
 
 #content {
@@ -85,33 +71,16 @@ ul#nav-social {
 	margin-bottom: 1em;
 	margin-top: 1em;
 	#column-1 {
-		float: left;
-		width: 590px;
-		margin-right: 10px;
-		padding-right: 40px;
 	}
 	#column-2 {
-		float: left;
-		width: 310px;
-		margin-right: 0px;
 	}
 	#admin-column-1 {
-		float: left;
-		width: 670px;
-		margin-right: 10px;
-		padding-right: 40px;
 	}
 	#admin-column-2 {
-		float: left;
-		width: 230px;
-		margin-right: 0px;
 	}
 }
 
 #content-header {
-	float: left;
-	width: 950px;
-	margin-right: 0px;
 	padding-bottom: 1.5em;
 }
 
@@ -121,22 +90,15 @@ ul#nav-social {
 }
 
 .footer-column {
-	float: left;
-	width: 310px;
 }
 
 #footer-column-1 {
-	.footer-column;
-	margin-right: 10px;
 }
 
 #footer-column-2 {
-	#footer-column-1
 }
 
 #footer-column-3 {
-	.footer-column;
-	margin-right: 0px;
 }
 
 #album_player {
@@ -144,7 +106,6 @@ ul#nav-social {
 }
 
 footer {
-	.container-blueprint;
 	margin-top: 1em;
 }
 
@@ -319,22 +280,12 @@ ol.track-list
 }
 
 .release-row {
-	width: 950px;
-	margin-right: 0px;
 }
 
 .release {
-	float: left;
-	width: 190px;
-	padding-right: 40px;
-	margin-right: 10px;
 }
 
 .release-last {
-	float: left;
-	width: 190px;
-	padding-right: 40px;
-	margin-right: 0px;
 }
 
 .release-list-info {
@@ -349,5 +300,23 @@ ol.track-list
 	margin-left: 0;
 	li {
 		margin-bottom: 1em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#observant-records-logo {
+		width: 100%;
+	}
+	
+	#home-slider {
+		display: none;
+	}
+	
+	#nav-header {
+		padding-top: 1em;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 1em;
+		text-align: left;
 	}
 }
